@@ -4,6 +4,11 @@
 
 package edu.neu.coe.info6205.util;
 
+import edu.neu.coe.info6205.sort.simple.InsertionSort;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Random;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -125,4 +130,75 @@ public class Benchmark_Timer<T> implements Benchmark<T> {
     private final Consumer<T> fPost;
 
     final static LazyLogger logger = new LazyLogger(Benchmark_Timer.class);
+
+    // main method and others for Insertion sort starts from here
+    public static void main(String args[]) {
+        String des = "Results";
+        InsertionSort insert_sort = new InsertionSort();
+        Consumer<Integer[]> consumer = arr -> insert_sort.sort(arr,0,arr.length);
+        Benchmark_Timer<Integer[]> bm = new Benchmark_Timer<Integer[]>(des, consumer);
+        int n = 100;
+        while(n <= 1600)  {
+            final int finalN = n;
+            Supplier<Integer[]> ordersupp = ()->bm.randomArray(finalN);
+            Supplier<Integer[]> ordersupp1 = ()->bm.partiallySortedArray(finalN);
+            Supplier<Integer[]> ordersupp2 = ()->bm.reverseSortedArray(finalN);
+            Supplier<Integer[]> ordersupp3 = ()->bm.sortedArray(finalN);
+            System.out.println("Size of array: " + n);
+
+            double time = bm.runFromSupplier(ordersupp, 100);
+            System.out.println("Random array | Average time to sort: " + time + " milliseconds\n");
+
+            double time3 = bm.runFromSupplier(ordersupp3, 100);
+            System.out.println("Ordered array | Average time to sort: " + time3 + " milliseconds\n");
+
+            double time1 = bm.runFromSupplier(ordersupp1, 100);
+            System.out.println("Partially-ordered array | Average time to sort: " + time1 + " milliseconds\n");
+
+            double time2 = bm.runFromSupplier(ordersupp2, 100);
+            System.out.println("Reverse-ordered array | Average time to sort: " + time2 + " milliseconds\n");
+            n = 2*n;
+        }
+    }
+
+    public Integer[] randomArray(int n) {
+        Random rd = new Random();
+        Integer[] arr = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = rd.nextInt();
+        }
+        return arr;
+
+    }
+
+    public static Integer[] partiallySortedArray(int n) {
+        Random randNum = new Random();
+        Integer[] arr = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = randNum.nextInt(5000);
+        }
+        Arrays.sort(arr, n / 2, n - 1);
+        return arr;
+    }
+
+    public static Integer[] reverseSortedArray(int n) {
+        Random rd = new Random();
+        Integer[] arr = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = rd.nextInt();
+        }
+        Arrays.sort(arr, Collections.reverseOrder());
+        return arr;
+    }
+
+    public static Integer[] sortedArray(int n) {
+        Random rd = new Random();
+        Integer[] arr = new Integer[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = rd.nextInt();
+        }
+        Arrays.sort(arr);
+        return arr;
+    }
+
 }
