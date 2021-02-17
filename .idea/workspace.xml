@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d548bff0-3431-4b90-a65a-cc913ebdc7c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Python/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/bag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/bag_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/bqs_exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/d_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/dijkstra_two_stack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/linkedlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/linkedlist_elements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/queue_elements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/stack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/stack_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/bqs/stack_linkedlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/functions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/functions/newton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/randomwalk/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/randomwalk/random_walk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/search/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/search/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/insertion_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/merge_sort_basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/quick_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/quick_sort_3way.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/selection_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/sort/simple/sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/union_find/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/union_find/connections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/union_find/uf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/union_find/uf_hwqupc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/util/benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/src/util/generic_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/test_bag_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/test_d_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/test_dijkstra_two_stack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/test_linkedlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/test_queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/test_stack_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_bqs/test_stack_linkedlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_functions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_functions/test_newton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_randomwalk/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_randomwalk/test_random_walk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_search/test_binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_sort/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_sort/test_simple/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_sort/test_simple/test_insertion_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_sort/test_simple/test_merge_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_sort/test_simple/test_quick_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_sort/test_simple/test_quick_sort_3way.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_sort/test_simple/test_selection_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_union_find/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/test/test_union_find/test_uf_hwqupc.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="300" />
+    </hideBySeverity>
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1oVA68QOEWWe0JEC7yKoKEaLxPx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.neu.coe.info6205.union_find.Client" />
+      <module name="INFO6205" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.coe.info6205.union_find.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.neu.coe.info6205.union_find in INFO6205" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO6205" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.coe.info6205.union_find.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.coe.info6205.union_find" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.edu.neu.coe.info6205.union_find in INFO6205" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d548bff0-3431-4b90-a65a-cc913ebdc7c8" name="Default Changelist" comment="" />
+      <created>1613361208317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613361208317</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/INFO6205$edu_neu_coe_info6205_union_find_in_INFO6205.ic" NAME="edu.neu.coe.info6205.union_find in INFO6205 Coverage Results" MODIFIED="1613414968007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.coe.info6205.union_find.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/INFO6205$Client.ic" NAME="Client Coverage Results" MODIFIED="1613416193716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.coe.info6205.union_find.*</FILTER>
+    </SUITE>
+  </component>
+</project>
